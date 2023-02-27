@@ -1,0 +1,131 @@
+:root {
+  --baseColor: #2c3338;
+  --baseColorInput: #3f464e;
+  --baseColorIconContainer: #363b41;
+  --baseColorIcon: #737c88;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  background-color: var(--baseColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  //   width: 100%;
+  box-sizing: border-box;
+  span {
+    margin-top: 15px;
+    color: white;
+  }
+  a {
+    padding-left: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    transition: color 0.5s ease-in-out; /* Add transition */
+    &:hover {
+      color: white;
+    }
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  .container-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    .container-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--baseColorIconContainer);
+      height: 100%;
+      color: var(--baseColorIcon);
+      border-radius: 5px 0px 0px 5px;
+      width: 9%;
+    }
+    input {
+      background-color: var(--baseColorInput);
+      border: none;
+      height: 55px;
+      padding-left: 20px;
+      outline: 0;
+      color: var(--baseColorIcon);
+      font-size: 18px;
+      border-radius: 0px 5px 5px 0px;
+      width: 40%;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    background-color: var(--baseColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    //   width: 100%;
+    box-sizing: border-box;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    .container-input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+
+      .container-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--baseColorIconContainer);
+        height: 100%;
+        color: var(--baseColorIcon);
+        border-radius: 5px 0px 0px 5px;
+        width: 9%;
+      }
+      input {
+        background-color: var(--baseColorInput);
+        border: none;
+        height: 55px;
+        padding-left: 20px;
+        outline: 0;
+        color: var(--baseColorIcon);
+        font-size: 18px;
+        border-radius: 0px 5px 5px 0px;
+        width: 70%;
+      }
+    }
+  }
+}

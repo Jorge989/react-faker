@@ -1,0 +1,230 @@
+{
+  "auth": [
+    {
+      "email": "charlie@example.com",
+      "password": "jorge123",
+      "id": 1
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 3
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 4
+    },
+    {
+      "email": "newuser@email.com",
+      "password": "newuser123",
+      "id": 5
+    },
+    {
+      "email": "newuser@1email.com",
+      "password": "newuser@123",
+      "id": 6
+    },
+    {
+      "email": "newuser@1email.com",
+      "password": "newuser@123",
+      "id": 7
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 8
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 9
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 10
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 11
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 12
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 13
+    },
+    {
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": 14
+    },
+    {
+      "email": "tester@email.com",
+      "password": "tester@123",
+      "id": 15
+    },
+    {
+      "email": "tester@email.com",
+      "password": "tester@123",
+      "id": 16
+    },
+    {
+      "email": "testeruser@email.com",
+      "password": "tester@123",
+      "id": 17
+    },
+    {
+      "email": "testeruser@email.com",
+      "password": "tester@123",
+      "id": 18
+    },
+    {
+      "email": "usertester@email.com",
+      "password": "tester@123",
+      "id": 19
+    },
+    {
+      "email": "usertester@email.com",
+      "password": "tester@123",
+      "id": 20
+    },
+    {
+      "email": "newuser@email.com",
+      "password": "tester@123",
+      "id": 21
+    },
+    {
+      "email": "newuser@email.com",
+      "password": "tester@123",
+      "id": 22
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alic2e",
+      "email": "alice@example.com2",
+      "password": "tester123@2"
+    },
+    {
+      "id": 2,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "password": "jorge123"
+    },
+    {
+      "username": "t",
+      "id": 3
+    },
+    {
+      "username": "te",
+      "id": 4
+    },
+    {
+      "password": "tester@gmail.com",
+      "id": 5
+    },
+    {
+      "password": "tester@gmail.com",
+      "id": 6
+    },
+    {
+      "password": "tester@1989",
+      "id": "cadb505b-e258-45fb-ad1f-30eb26945958"
+    },
+    {
+      "password": "tester@1989",
+      "id": "b46129e7-07fa-4c0a-9e8c-8dba106cd805"
+    },
+    {
+      "username": "tester",
+      "email": "tester@gmail.com",
+      "password": "tester@1989",
+      "id": "c166e248-ce4c-4a63-a5c5-5268ad8b8a0d"
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "username": "tester123",
+      "email": "tester@1232",
+      "password": "tester123",
+      "id": "45177383-5a93-47cb-926b-5f252095d1a2"
+    },
+    {
+      "username": "tester123",
+      "email": "tester@gmail.com",
+      "password": "tester123",
+      "id": "f6acb5a1-02ab-487c-ab68-9856b04ad8e2"
+    },
+    {
+      "username": "jorge",
+      "email": "jorge@emai.com",
+      "password": "jorge123",
+      "id": "118fc1ea-8fec-4b8b-b0bf-056468becc5c"
+    },
+    {
+      "username": "user",
+      "email": "newuser@email.com",
+      "password": "newuser123",
+      "id": "4fe0dda7-1b6c-41f6-a9fd-d854b98bee5e"
+    },
+    {
+      "username": "newuser",
+      "email": "newuser@1email.com",
+      "password": "newuser@123",
+      "id": "43352c17-1ca2-4da5-abc9-7442e9ff6963"
+    },
+    {
+      "username": "tester",
+      "email": "tester@email.com",
+      "password": "tester@123",
+      "id": "6845d953-8496-4e55-a6ce-8300a190aef9"
+    },
+    {
+      "username": "tester",
+      "email": "testeruser@email.com",
+      "password": "tester@123",
+      "id": "844ae94a-5ab2-4741-833d-e7c32602d8a2"
+    },
+    {
+      "username": "user",
+      "email": "usertester@email.com",
+      "password": "tester@123",
+      "id": "0db798bf-7b36-4c6c-829c-01767ff5a625"
+    },
+    {
+      "username": "newuser",
+      "email": "newuser@email.com",
+      "password": "tester@123",
+      "id": "00def466-f4e2-482a-a358-4880654e9b85"
+    }
+  ]
+}
